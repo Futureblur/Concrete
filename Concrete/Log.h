@@ -38,11 +38,11 @@ namespace CC
 	};
 
 	// Base macro for logging messages to the console.
-	#define CC_LOG(message, severity)                   		\
-			do {                                                \
-				std::stringstream _logStringStream;             \
-				_logStringStream << message;                    \
-				Log::severity(_logStringStream);		        \
+	#define CC_LOG(message, severity)                   \
+			do {                                        \
+				std::stringstream _logStringStream;     \
+				_logStringStream << message;            \
+				CC::Log::severity(_logStringStream);	\
 			} while(0)
 
 	// Macro for logging an info message to the console with the source being PLAYER.
