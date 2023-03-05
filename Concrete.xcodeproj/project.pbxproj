@@ -6,8 +6,29 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F6109F5929B4C35C008E2000 /* CoreTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6109F5029B4C35C008E2000 /* CoreTime.cpp */; };
+		F6109F5A29B4C35C008E2000 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6109F5129B4C35C008E2000 /* Log.cpp */; };
+		F6109F5B29B4C35C008E2000 /* PCH.h in Headers */ = {isa = PBXBuildFile; fileRef = F6109F5229B4C35C008E2000 /* PCH.h */; };
+		F6109F5C29B4C35C008E2000 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = F6109F5329B4C35C008E2000 /* Core.h */; };
+		F6109F5D29B4C35C008E2000 /* EntryPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6109F5429B4C35C008E2000 /* EntryPoint.cpp */; };
+		F6109F5E29B4C35C008E2000 /* EntryPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F6109F5529B4C35C008E2000 /* EntryPoint.h */; };
+		F6109F5F29B4C35C008E2000 /* PCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6109F5629B4C35C008E2000 /* PCH.cpp */; };
+		F6109F6029B4C35C008E2000 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = F6109F5729B4C35C008E2000 /* Log.h */; };
+		F6109F6129B4C35C008E2000 /* CoreTime.h in Headers */ = {isa = PBXBuildFile; fileRef = F6109F5829B4C35C008E2000 /* CoreTime.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F6109F4829B4C34E008E2000 /* libConcrete.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libConcrete.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6109F5029B4C35C008E2000 /* CoreTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoreTime.cpp; sourceTree = "<group>"; };
+		F6109F5129B4C35C008E2000 /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		F6109F5229B4C35C008E2000 /* PCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCH.h; sourceTree = "<group>"; };
+		F6109F5329B4C35C008E2000 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		F6109F5429B4C35C008E2000 /* EntryPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EntryPoint.cpp; sourceTree = "<group>"; };
+		F6109F5529B4C35C008E2000 /* EntryPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryPoint.h; sourceTree = "<group>"; };
+		F6109F5629B4C35C008E2000 /* PCH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PCH.cpp; sourceTree = "<group>"; };
+		F6109F5729B4C35C008E2000 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		F6109F5829B4C35C008E2000 /* CoreTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTime.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +45,7 @@
 		F6109F3F29B4C34E008E2000 = {
 			isa = PBXGroup;
 			children = (
+				F6109F4F29B4C35C008E2000 /* Concrete */,
 				F6109F4929B4C34E008E2000 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -36,6 +58,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F6109F4F29B4C35C008E2000 /* Concrete */ = {
+			isa = PBXGroup;
+			children = (
+				F6109F5029B4C35C008E2000 /* CoreTime.cpp */,
+				F6109F5129B4C35C008E2000 /* Log.cpp */,
+				F6109F5229B4C35C008E2000 /* PCH.h */,
+				F6109F5329B4C35C008E2000 /* Core.h */,
+				F6109F5429B4C35C008E2000 /* EntryPoint.cpp */,
+				F6109F5529B4C35C008E2000 /* EntryPoint.h */,
+				F6109F5629B4C35C008E2000 /* PCH.cpp */,
+				F6109F5729B4C35C008E2000 /* Log.h */,
+				F6109F5829B4C35C008E2000 /* CoreTime.h */,
+			);
+			path = Concrete;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -43,6 +81,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6109F5E29B4C35C008E2000 /* EntryPoint.h in Headers */,
+				F6109F6029B4C35C008E2000 /* Log.h in Headers */,
+				F6109F5B29B4C35C008E2000 /* PCH.h in Headers */,
+				F6109F6129B4C35C008E2000 /* CoreTime.h in Headers */,
+				F6109F5C29B4C35C008E2000 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6109F5A29B4C35C008E2000 /* Log.cpp in Sources */,
+				F6109F5D29B4C35C008E2000 /* EntryPoint.cpp in Sources */,
+				F6109F5929B4C35C008E2000 /* CoreTime.cpp in Sources */,
+				F6109F5F29B4C35C008E2000 /* PCH.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +271,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ4NC3HLBS;
 				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Concrete/PCH.h;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -235,6 +284,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ4NC3HLBS;
 				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Concrete/PCH.h;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
