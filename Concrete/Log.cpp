@@ -29,7 +29,7 @@ namespace CC
 		std::string currentTime = CoreTime::GetTimeString();
 		std::string color, clearColor;
 
-		std::cout << color << currentTime << " " << LogSeverityToStr(severity) << " @"
+		std::cout << color << currentTime << " " << LogSeverityToStr(severity)
 				  << message.str() << clearColor << "\n";
 	}
 
